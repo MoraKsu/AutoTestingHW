@@ -14,6 +14,10 @@ public class ToyBox implements Toy {
         toys.remove(toy);
     }
 
+    public List<Toy> getToys() {
+        return toys;
+    }
+
     @Override
     public void displayInfo() {
         System.out.println("Toy Box contains:");

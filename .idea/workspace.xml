@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5a6aa9d-f5ac-4cff-b81d-e048573d354d" name="Changes" comment="add Home Work Seminar 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW2/Toy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW2/ToyBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW2/ToyItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e5a6aa9d-f5ac-4cff-b81d-e048573d354d" name="Changes" comment="add Home Work Seminar 2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW2/ToyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW2/ToyBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HW2/ToyBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MoraKsu"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c13c7f46-4d1e-4ab0-806f-31026a2bcd79" />
+        <option name="url" value="https://github.com/MoraKsu/AutoTestingHW.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2dIzvnwmxMRASrUR1NYHaoGuvl1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -63,7 +74,7 @@
       <recent name="org" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.HW2.Main">
+  <component name="RunManager" selected="JUnit.ToyTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.HW1montyhallgame.Main" />
       <module name="AutoTestingHW" />
@@ -90,8 +101,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ToyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestingHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.HW2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.HW2" />
+      <option name="MAIN_CLASS_NAME" value="org.HW2.ToyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ToyTest" />
         <item itemvalue="Application.org.HW2.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -114,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709713278117</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Home Work Seminar 2">
+      <option name="closed" value="true" />
+      <created>1709717604582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709717604582</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +165,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Home Work Seminar 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Home Work Seminar 1" />
+    <MESSAGE value="add Home Work Seminar 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Home Work Seminar 2" />
   </component>
 </project>

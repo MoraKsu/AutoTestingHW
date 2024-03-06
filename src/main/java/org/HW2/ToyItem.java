@@ -7,6 +7,10 @@ public class ToyItem implements Toy {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
     @Override
     public void displayInfo() {
         System.out.println("Toy: " + name);
