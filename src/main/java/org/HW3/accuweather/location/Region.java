@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "LocalizedName",
     "EnglishName"
 })
-public class Country {
+public class Region {
 
     @JsonProperty("ID")
     private String id;

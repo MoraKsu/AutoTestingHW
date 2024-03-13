@@ -7,27 +7,27 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "ID",
+    "Level",
     "LocalizedName",
     "EnglishName"
 })
-public class Country {
+public class SupplementalAdminArea {
 
-    @JsonProperty("ID")
-    private String id;
+    @JsonProperty("Level")
+    private Integer level;
     @JsonProperty("LocalizedName")
     private String localizedName;
     @JsonProperty("EnglishName")
     private String englishName;
 
-    @JsonProperty("ID")
-    public String getId() {
-        return id;
+    @JsonProperty("Level")
+    public Integer getLevel() {
+        return level;
     }
 
-    @JsonProperty("ID")
-    public void setId(String id) {
-        this.id = id;
+    @JsonProperty("Level")
+    public void setLevel(Integer level) {
+        this.level = level;
     }
 
     @JsonProperty("LocalizedName")

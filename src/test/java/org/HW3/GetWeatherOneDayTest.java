@@ -58,4 +58,33 @@ public class GetWeatherOneDayTest extends AccuweatherAbstractTest {
         Assertions.assertTrue(response.contains("Headline"));
         Assertions.assertTrue(response.contains("DailyForecasts"));
     }
+
+    @Test
+    void invalidApiKey_shouldReturnUnauthorized() {
+        given()
+                .queryParam("apikey", "invalid_api_key")
+                .when()
+                .get(getBaseUrl() + "/forecasts/v1/daily/1day/295302")
+                .then()
+                .statusCode(401);
+    }
+
+    @Test
+    void invalidLocation_shouldReturnNotFound() {
+        given()
+                .queryParam("apikey", getApiKey())
+                .when()
+                .get(getBaseUrl() + "/forecasts/v1/daily/1day/invalid_location")
+                .then()
+                .statusCode(400);
+    }
+
+    @Test
+    void missingApiKey_shouldReturnUnauthorized() {
+        given()
+                .when()
+                .get(getBaseUrl() + "/forecasts/v1/daily/1day/295302")
+                .then()
+                .statusCode(401);
+    }
 }

@@ -1,6 +1,7 @@
 
 package org.HW3.accuweather.location;
 
+import java.util.List;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
@@ -12,8 +13,16 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "Type",
     "Rank",
     "LocalizedName",
+    "EnglishName",
+    "PrimaryPostalCode",
+    "Region",
     "Country",
-    "AdministrativeArea"
+    "AdministrativeArea",
+    "TimeZone",
+    "GeoPosition",
+    "IsAlias",
+    "SupplementalAdminAreas",
+    "DataSets"
 })
 public class Location {
 
@@ -27,10 +36,26 @@ public class Location {
     private Integer rank;
     @JsonProperty("LocalizedName")
     private String localizedName;
+    @JsonProperty("EnglishName")
+    private String englishName;
+    @JsonProperty("PrimaryPostalCode")
+    private String primaryPostalCode;
+    @JsonProperty("Region")
+    private Region region;
     @JsonProperty("Country")
     private Country country;
     @JsonProperty("AdministrativeArea")
     private AdministrativeArea administrativeArea;
+    @JsonProperty("TimeZone")
+    private TimeZone timeZone;
+    @JsonProperty("GeoPosition")
+    private GeoPosition geoPosition;
+    @JsonProperty("IsAlias")
+    private Boolean isAlias;
+    @JsonProperty("SupplementalAdminAreas")
+    private List<SupplementalAdminArea> supplementalAdminAreas;
+    @JsonProperty("DataSets")
+    private List<String> dataSets;
 
     @JsonProperty("Version")
     public Integer getVersion() {
@@ -82,6 +107,36 @@ public class Location {
         this.localizedName = localizedName;
     }
 
+    @JsonProperty("EnglishName")
+    public String getEnglishName() {
+        return englishName;
+    }
+
+    @JsonProperty("EnglishName")
+    public void setEnglishName(String englishName) {
+        this.englishName = englishName;
+    }
+
+    @JsonProperty("PrimaryPostalCode")
+    public String getPrimaryPostalCode() {
+        return primaryPostalCode;
+    }
+
+    @JsonProperty("PrimaryPostalCode")
+    public void setPrimaryPostalCode(String primaryPostalCode) {
+        this.primaryPostalCode = primaryPostalCode;
+    }
+
+    @JsonProperty("Region")
+    public Region getRegion() {
+        return region;
+    }
+
+    @JsonProperty("Region")
+    public void setRegion(Region region) {
+        this.region = region;
+    }
+
     @JsonProperty("Country")
     public Country getCountry() {
         return country;
@@ -100,6 +155,56 @@ public class Location {
     @JsonProperty("AdministrativeArea")
     public void setAdministrativeArea(AdministrativeArea administrativeArea) {
         this.administrativeArea = administrativeArea;
+    }
+
+    @JsonProperty("TimeZone")
+    public TimeZone getTimeZone() {
+        return timeZone;
+    }
+
+    @JsonProperty("TimeZone")
+    public void setTimeZone(TimeZone timeZone) {
+        this.timeZone = timeZone;
+    }
+
+    @JsonProperty("GeoPosition")
+    public GeoPosition getGeoPosition() {
+        return geoPosition;
+    }
+
+    @JsonProperty("GeoPosition")
+    public void setGeoPosition(GeoPosition geoPosition) {
+        this.geoPosition = geoPosition;
+    }
+
+    @JsonProperty("IsAlias")
+    public Boolean getIsAlias() {
+        return isAlias;
+    }
+
+    @JsonProperty("IsAlias")
+    public void setIsAlias(Boolean isAlias) {
+        this.isAlias = isAlias;
+    }
+
+    @JsonProperty("SupplementalAdminAreas")
+    public List<SupplementalAdminArea> getSupplementalAdminAreas() {
+        return supplementalAdminAreas;
+    }
+
+    @JsonProperty("SupplementalAdminAreas")
+    public void setSupplementalAdminAreas(List<SupplementalAdminArea> supplementalAdminAreas) {
+        this.supplementalAdminAreas = supplementalAdminAreas;
+    }
+
+    @JsonProperty("DataSets")
+    public List<String> getDataSets() {
+        return dataSets;
+    }
+
+    @JsonProperty("DataSets")
+    public void setDataSets(List<String> dataSets) {
+        this.dataSets = dataSets;
     }
 
 }
