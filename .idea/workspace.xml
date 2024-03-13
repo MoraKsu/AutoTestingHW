@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5a6aa9d-f5ac-4cff-b81d-e048573d354d" name="Changes" comment="add Home Work Seminar 2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW2/ToyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW2/ToyBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HW2/ToyBox.java" afterDir="false" />
+    <list default="true" id="e5a6aa9d-f5ac-4cff-b81d-e048573d354d" name="Changes" comment="add Tests Home Work Seminar 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Elevation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/GeoPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Imperial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Metric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/SupplementalAdminArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/TimeZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Accuweather.postman_test_run.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/AdministrativeArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/AdministrativeArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/weather/DailyForecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/weather/DailyForecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/weather/Weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/weather/Weather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW3/GetLocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/HW3/GetLocationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW3/GetWeatherFifteenDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/HW3/GetWeatherFifteenDayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW3/GetWeatherOneDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/HW3/GetWeatherOneDayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Accuweather.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Accuweather.postman_collection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/accuweather.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/accuweather.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +42,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MoraKsu"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MoraKsu&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -39,32 +56,58 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2dIzvnwmxMRASrUR1NYHaoGuvl1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
     "Application.org.HW2.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.GetLocationTest.executor": "Run",
+    "JUnit.GetLocationTest.getLocation_search_invalidApiKey.executor": "Run",
+    "JUnit.GetLocationTest.getLocation_search_returnTolyatti.executor": "Debug",
+    "JUnit.GetWeatherFifteenDayTest.executor": "Run",
+    "JUnit.GetWeatherOneDayTest.executor": "Run",
+    "JUnit.GetWeatherOneDayTest.getDailyForecastsList.executor": "Run",
+    "JUnit.NegativeTests.executor": "Run",
+    "JUnit.ToyTest.executor": "Run",
     "Maven.AutoTestingHW [clean].executor": "Run",
     "Maven.AutoTestingHW [compile].executor": "Run",
     "Maven.AutoTestingHW [deploy].executor": "Run",
     "Maven.AutoTestingHW [install].executor": "Run",
+    "Maven.AutoTestingHW [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
     "Maven.AutoTestingHW [package].executor": "Run",
     "Maven.AutoTestingHW [site].executor": "Run",
     "Maven.AutoTestingHW [test].executor": "Run",
     "Maven.AutoTestingHW [validate].executor": "Run",
     "Maven.AutoTestingHW [verify].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "hw3",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/LessonsWork/Web-developer/Project/geekBrains/AutoTestingHW/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "D:/LessonsWork/Web-developer/Project/geekBrains/Vvedenie-v-automatizatsiy-testirovania",
+    "onboarding.tips.debug.path": "D:/LessonsWork/Web-developer/Project/geekBrains/AutoTestingHW/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.20114942",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,43 +117,79 @@
       <recent name="org" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ToyTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.HW1montyhallgame.Main" />
+  <component name="RunManager" selected="JUnit.GetWeatherOneDayTest.getDailyForecastsList">
+    <configuration name="GetLocationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestingHW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.HW1montyhallgame.*" />
+          <option name="PATTERN" value="org.HW3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.HW3" />
+      <option name="MAIN_CLASS_NAME" value="org.HW3.GetLocationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.HW2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.HW2.Main" />
+    <configuration name="GetLocationTest.getLocation_search_invalidApiKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestingHW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.HW2.*" />
+          <option name="PATTERN" value="org.HW3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.HW3" />
+      <option name="MAIN_CLASS_NAME" value="org.HW3.GetLocationTest" />
+      <option name="METHOD_NAME" value="getLocation_search_invalidApiKey" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetWeatherOneDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestingHW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.HW2.*" />
+          <option name="PATTERN" value="org.HW3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.HW2" />
-      <option name="MAIN_CLASS_NAME" value="org.HW2.ToyTest" />
+      <option name="PACKAGE_NAME" value="org.HW3" />
+      <option name="MAIN_CLASS_NAME" value="org.HW3.GetWeatherOneDayTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetWeatherOneDayTest.getDailyForecastsList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestingHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.HW3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.HW3" />
+      <option name="MAIN_CLASS_NAME" value="org.HW3.GetWeatherOneDayTest" />
+      <option name="METHOD_NAME" value="getDailyForecastsList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestingHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.HW3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.HW3" />
+      <option name="MAIN_CLASS_NAME" value="org.HW3.NegativeTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +197,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ToyTest" />
-        <item itemvalue="Application.org.HW2.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.GetWeatherOneDayTest.getDailyForecastsList" />
+        <item itemvalue="JUnit.GetWeatherOneDayTest" />
+        <item itemvalue="JUnit.GetLocationTest.getLocation_search_invalidApiKey" />
+        <item itemvalue="JUnit.GetLocationTest" />
+        <item itemvalue="JUnit.NegativeTests" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -149,7 +238,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709717604582</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Tests Home Work Seminar 2">
+      <option name="closed" value="true" />
+      <created>1709717965638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709717965638</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add Tests Home Work Seminar 3">
+      <option name="closed" value="true" />
+      <created>1710252975366</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710252975366</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,8 +269,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add Home Work Seminar 1" />
     <MESSAGE value="add Home Work Seminar 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Home Work Seminar 2" />
+    <MESSAGE value="add Tests Home Work Seminar 2" />
+    <MESSAGE value="add Tests Home Work Seminar 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Tests Home Work Seminar 3" />
   </component>
 </project>
