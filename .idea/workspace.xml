@@ -5,101 +5,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5a6aa9d-f5ac-4cff-b81d-e048573d354d" name="Changes" comment="fixed Home Work Seminar 3">
-      <change afterPath="$PROJECT_DIR$/db/demo/migration/V1_1_0__add_employee_info.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/demo/migration/V2_1_0__add_employee.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/home/migration/V1_1_0__add_product.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/home/migration/V2_1_0__add_customers.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/home/migration/V3_1_0__add_order.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/home/migration/V4_1_0__add_orders_products.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/home/migration/V5_1_0__add_courier.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/home/migration/V6_1_0__delivery.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seminar/migration/V1_1_0__add_client.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seminar/migration/V2_1_0__add_emploee.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seminar/migration/V3_1_0__add_debit.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seminar/migration/V4_1_0__add_current.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seminar/migration/V5_1_0__add_credit.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home.db-journal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.10.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/dom4j-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-core-5.4.11.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jandex-2.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javassist-3.24.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW4/CourierInfoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW4/CustomersEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW4/DeliveryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW4/MainHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW4/OrdersEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW4/OrdersProductsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW4/OrdersProductsEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW4/ProductsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/ClientEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/CreditEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/CurrentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/DebitEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/EmployeeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/MainHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW4/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW4/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW4/OrdersEntityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW4/ProductsEntityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/RunWireMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/DailyForecast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Headline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Maximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Minimum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Night.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Temperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/spoon/ConvertAmountsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/spoon/SimilarRecipesDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/accu/location/AdministrativeArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/accu/location/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/accu/location/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/spoon/ClassifyCuisineDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/spoon/IngredientSubstitutesDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/accu/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/accu/GetLocationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/accu/GetWeatherOneDayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/accu/GetWeatherTenDayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/spoon/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/spoon/ConvertAmountsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/spoon/SimilarRecipesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/seminar/accu/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/seminar/accu/GetLocationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/seminar/spoon/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/seminar/spoon/ClassifyCuisineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/seminar/spoon/IngredientSubstitutesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/demo/migration/V1_1_0__add_employee_info.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/demo/migration/V2_1_0__add_employee.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/home/migration/V1_1_0__add_product.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/home/migration/V2_1_0__add_customers.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/home/migration/V3_1_0__add_order.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/home/migration/V4_1_0__add_orders_products.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/home/migration/V5_1_0__add_courier.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/home/migration/V6_1_0__delivery.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seminar/migration/V1_1_0__add_client.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seminar/migration/V2_1_0__add_emploee.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seminar/migration/V3_1_0__add_debit.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seminar/migration/V4_1_0__add_current.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seminar/migration/V5_1_0__add_credit.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/byte-buddy-1.10.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hibernate-core-5.4.11.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jandex-2.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/txw2-2.3.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW1montyhallgame/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW1montyhallgame/game/DoorSelectionStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW1montyhallgame/game/FirstDoorSelectionStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW1montyhallgame/game/MontyHallGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW1montyhallgame/game/RandomDoorSelectionStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW2/Toy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW2/ToyBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW2/ToyItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/AdministrativeArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Country.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Elevation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/GeoPosition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Imperial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Metric.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/Region.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/SupplementalAdminArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/location/TimeZone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/weather/DailyForecast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/weather/Day.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/weather/Headline.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/weather/Maximum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/weather/Minimum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/weather/Night.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/weather/Temperature.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW3/accuweather/weather/Weather.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/tests.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW1montyhallgame/FirstDoorSelectionStrategyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW1montyhallgame/MontyHallGameTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW1montyhallgame/RandomDoorSelectionStrategyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW2/ToyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW3/AccuweatherAbstractTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW3/GetLocationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW3/GetWeatherFifteenDayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW3/GetWeatherOneDayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Accuweather.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Accuweather.postman_test_run.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/accuweather.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/spoonacular.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/CourierInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/CustomersEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/DeliveryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/MainHome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/OrdersEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/OrdersProductsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/OrdersProductsEntityPK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/ProductsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/seminar/ClientEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/seminar/CreditEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/seminar/CurrentEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/seminar/DebitEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/seminar/EmployeeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/seminar/MainHome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW4/AbstractTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW4/CustomerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW4/OrdersEntityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW4/ProductsEntityTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,15 +142,23 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
     "Application.MainHome.executor": "Run",
+    "Application.RunWireMock.executor": "Run",
     "Application.org.HW2.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ClassifyCuisineTest.executor": "Run",
     "JUnit.CustomerTest.executor": "Run",
+    "JUnit.GetLocationTest (1).executor": "Run",
     "JUnit.GetLocationTest.executor": "Run",
     "JUnit.GetLocationTest.getLocation_search_invalidApiKey.executor": "Run",
     "JUnit.GetLocationTest.getLocation_search_returnTolyatti.executor": "Debug",
+    "JUnit.GetLocationTest.get_shouldReturn200.executor": "Run",
     "JUnit.GetWeatherFifteenDayTest.executor": "Run",
     "JUnit.GetWeatherOneDayTest.executor": "Run",
     "JUnit.GetWeatherOneDayTest.getDailyForecastsList.executor": "Run",
+    "JUnit.GetWeatherTenDayTest.executor": "Run",
+    "JUnit.GetWeatherTenDayTest.get_shouldReturn400_WithInvalidLocation.executor": "Run",
+    "JUnit.GetWeatherTenDayTest.get_shouldReturn401.executor": "Run",
+    "JUnit.IngredientSubstitutesTest.executor": "Run",
     "JUnit.NegativeTests.executor": "Run",
     "JUnit.OrdersEntityTest.executor": "Run",
     "JUnit.OrdersEntityTest.testAddOrder.executor": "Run",
@@ -191,7 +187,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "hw4",
+    "git-widget-placeholder": "hw5",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/LessonsWork/Web-developer/Project/geekBrains/Vvedenie-v-automatizatsiy-testirovania",
@@ -210,92 +206,92 @@
       <recent name="org" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrdersEntityTest.testGetOrdersByCustomerId">
-    <configuration name="OrdersEntityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GetWeatherTenDayTest">
+    <configuration name="GetLocationTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestingHW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.HW4.*" />
+          <option name="PATTERN" value="org.HW5.accu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.HW4" />
-      <option name="MAIN_CLASS_NAME" value="org.HW4.OrdersEntityTest" />
+      <option name="PACKAGE_NAME" value="org.HW5.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.HW5.accu.GetLocationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdersEntityTest.testAddOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetLocationTest.get_shouldReturn200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestingHW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.HW4.*" />
+          <option name="PATTERN" value="org.HW5.accu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.HW4" />
-      <option name="MAIN_CLASS_NAME" value="org.HW4.OrdersEntityTest" />
-      <option name="METHOD_NAME" value="testAddOrder" />
+      <option name="PACKAGE_NAME" value="org.HW5.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.HW5.accu.GetLocationTest" />
+      <option name="METHOD_NAME" value="get_shouldReturn200" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdersEntityTest.testDeleteOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetWeatherTenDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestingHW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.HW4.*" />
+          <option name="PATTERN" value="org.HW5.accu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.HW4" />
-      <option name="MAIN_CLASS_NAME" value="org.HW4.OrdersEntityTest" />
-      <option name="METHOD_NAME" value="testDeleteOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrdersEntityTest.testGetOrdersByCustomerId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutoTestingHW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.HW4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.HW4" />
-      <option name="MAIN_CLASS_NAME" value="org.HW4.OrdersEntityTest" />
-      <option name="METHOD_NAME" value="testGetOrdersByCustomerId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductsEntityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutoTestingHW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.HW4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.HW4" />
-      <option name="MAIN_CLASS_NAME" value="org.HW4.ProductsEntityTest" />
+      <option name="PACKAGE_NAME" value="org.HW5.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.HW5.accu.GetWeatherTenDayTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetWeatherTenDayTest.get_shouldReturn400_WithInvalidLocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestingHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.HW5.accu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.HW5.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.HW5.accu.GetWeatherTenDayTest" />
+      <option name="METHOD_NAME" value="get_shouldReturn400_WithInvalidLocation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetWeatherTenDayTest.get_shouldReturn401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestingHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.HW5.accu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.HW5.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.HW5.accu.GetWeatherTenDayTest" />
+      <option name="METHOD_NAME" value="get_shouldReturn401" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrdersEntityTest.testGetOrdersByCustomerId" />
-        <item itemvalue="JUnit.OrdersEntityTest.testDeleteOrder" />
-        <item itemvalue="JUnit.OrdersEntityTest.testAddOrder" />
-        <item itemvalue="JUnit.OrdersEntityTest" />
-        <item itemvalue="JUnit.ProductsEntityTest" />
+        <item itemvalue="JUnit.GetWeatherTenDayTest" />
+        <item itemvalue="JUnit.GetWeatherTenDayTest.get_shouldReturn400_WithInvalidLocation" />
+        <item itemvalue="JUnit.GetWeatherTenDayTest.get_shouldReturn401" />
+        <item itemvalue="JUnit.GetLocationTest (1)" />
+        <item itemvalue="JUnit.GetLocationTest.get_shouldReturn200" />
       </list>
     </recent_temporary>
   </component>
