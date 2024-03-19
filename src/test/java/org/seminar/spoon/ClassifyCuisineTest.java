@@ -1,11 +1,13 @@
 package org.seminar.spoon;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.qameta.allure.*;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.HW5.spoon.AbstractTest;
 import org.slf4j.Logger;
@@ -16,6 +18,8 @@ import java.io.IOException;
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@Epic(value = "Тестирование с помощью WireMock и логгирование")
+@Feature(value = "Работа на Семинаре 5")
 public class ClassifyCuisineTest extends AbstractTest {
 
     private static final Logger logger
@@ -28,6 +32,12 @@ public class ClassifyCuisineTest extends AbstractTest {
     }
 
     @Test
+    @DisplayName("ClassifyCuisineTest")
+    @Description("POST ClassifyCuisine")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Эрина Ксения")
+    @Story(value = "Тестирование метода post_shouldReturn200")
     void post_shouldReturn200() throws IOException {
         logger.info("Тест код ответ 200 запущен");
         //given
@@ -85,6 +95,12 @@ public class ClassifyCuisineTest extends AbstractTest {
     }
 
     @Test
+    @DisplayName("ClassifyCuisineTest")
+    @Description("POST ClassifyCuisine Error")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Эрина Ксения")
+    @Story(value = "Тестирование метода post_shouldReturn403")
     void post_shouldReturn403() throws IOException {
         logger.info("Тест код ответ 403 запущен");
         //given

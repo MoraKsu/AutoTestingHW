@@ -1,9 +1,11 @@
 package org.HW5.spoon;
 
+import io.qameta.allure.*;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.seminar.spoon.AbstractTest;
 import org.slf4j.Logger;
@@ -14,12 +16,20 @@ import java.io.IOException;
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@Epic(value = "Тестирование с помощью WireMock и логгирование")
+@Feature(value = "Работа на Семинаре 5")
 public class SimilarRecipesTest extends AbstractTest {
 
     private static final Logger logger
             = LoggerFactory.getLogger(SimilarRecipesTest.class);
 
     @Test
+    @DisplayName("SimilarRecipesTest")
+    @Description("GET SimilarRecipes Error")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Эрина Ксения")
+    @Story(value = "Тестирование метода get_shouldReturn500")
     void get_shouldReturn500() throws IOException {
         logger.info("Тест код ответ 500 запущен");
         //given

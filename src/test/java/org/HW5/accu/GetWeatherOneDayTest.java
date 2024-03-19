@@ -1,11 +1,13 @@
 package org.HW5.accu;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.qameta.allure.*;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.HW5.accu.weather.DailyForecast;
 import org.HW5.accu.weather.Headline;
@@ -22,12 +24,20 @@ import java.util.List;
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@Epic(value = "Тестирование с помощью WireMock и логгирование")
+@Feature(value = "Домашнее задание Семинар 5")
 public class GetWeatherOneDayTest extends AbstractTest{
 
     private static final Logger logger
             = LoggerFactory.getLogger(GetWeatherOneDayTest.class);
 
     @Test
+    @DisplayName("GetWeatherOneDayTest")
+    @Description("GET WeatherOneDay")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Эрина Ксения")
+    @Story(value = "Тестирование метода get_shouldReturn200")
     void get_shouldReturn200() throws IOException, URISyntaxException {
         logger.info("Тест код ответ 200 запущен");
         //given
@@ -64,6 +74,12 @@ public class GetWeatherOneDayTest extends AbstractTest{
     }
 
     @Test
+    @DisplayName("GetWeatherOneDayTest")
+    @Description("GET WeatherOneDay Error")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Эрина Ксения")
+    @Story(value = "Тестирование метода get_shouldReturn500")
     void get_shouldReturn500() throws IOException {
         logger.info("Тест код ответ 500 запущен");
         //given

@@ -1,12 +1,14 @@
 package org.seminar.spoon;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.qameta.allure.*;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.HW5.spoon.AbstractTest;
 import org.slf4j.Logger;
@@ -19,6 +21,8 @@ import java.net.URISyntaxException;
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@Epic(value = "Тестирование с помощью WireMock и логгирование")
+@Feature(value = "Работа на Семинаре 5")
 public class IngredientSubstitutesTest extends AbstractTest {
 
     private static final Logger logger
@@ -26,6 +30,12 @@ public class IngredientSubstitutesTest extends AbstractTest {
 
 
     @Test
+    @DisplayName("IngredientSubstitutesTest")
+    @Description("GET IngredientSubstitutes")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Эрина Ксения")
+    @Story(value = "Тестирование метода get_shouldReturn200")
     void get_shouldReturn200() throws IOException, URISyntaxException {
         logger.info("Тест код ответ 200 запущен");
         //given
@@ -75,6 +85,12 @@ public class IngredientSubstitutesTest extends AbstractTest {
     }
 
     @Test
+    @DisplayName("IngredientSubstitutesTest")
+    @Description("GET IngredientSubstitutes Error")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Эрина Ксения")
+    @Story(value = "Тестирование метода get_shouldReturn401")
     void get_shouldReturn401() throws IOException, URISyntaxException {
         logger.info("Тест код ответ 401 запущен");
         //given

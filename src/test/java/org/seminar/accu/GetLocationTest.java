@@ -1,11 +1,13 @@
 package org.seminar.accu;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.qameta.allure.*;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.seminar.accu.location.Location;
 import org.slf4j.Logger;
@@ -19,12 +21,20 @@ import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static com.github.tomakehurst.wiremock.client.WireMock.urlPathEqualTo;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@Epic(value = "Тестирование с помощью WireMock и логгирование")
+@Feature(value = "Работа на Семинаре 5")
 public class GetLocationTest extends AbstractTest{
 
     private static final Logger logger
             = LoggerFactory.getLogger(GetLocationTest.class);
 
     @Test
+    @DisplayName("GetLocationTest")
+    @Description("GET Location")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Эрина Ксения")
+    @Story(value = "Тестирование метода get_shouldReturn200")
     void get_shouldReturn200() throws IOException, URISyntaxException {
         logger.info("Тест код ответ 200 запущен");
         //given
@@ -76,6 +86,12 @@ public class GetLocationTest extends AbstractTest{
     }
 
     @Test
+    @DisplayName("GetLocationTest")
+    @Description("GET Location Error")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Эрина Ксения")
+    @Story(value = "Тестирование метода get_shouldReturn401")
     void get_shouldReturn401() throws IOException, URISyntaxException {
         logger.info("Тест код ответ 401 запущен");
         //given
