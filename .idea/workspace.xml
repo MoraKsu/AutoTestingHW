@@ -4,90 +4,200 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5a6aa9d-f5ac-4cff-b81d-e048573d354d" name="Changes" comment="fixed Home Work Seminar 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/RunWireMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/DailyForecast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Headline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Maximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Minimum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Night.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Temperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/accu/weather/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/spoon/ConvertAmountsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/HW5/spoon/SimilarRecipesDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/accu/location/AdministrativeArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/accu/location/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/accu/location/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/spoon/ClassifyCuisineDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminar/spoon/IngredientSubstitutesDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/accu/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/accu/GetLocationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/accu/GetWeatherOneDayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/accu/GetWeatherTenDayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/spoon/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/spoon/ConvertAmountsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/HW5/spoon/SimilarRecipesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/seminar/accu/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/seminar/accu/GetLocationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/seminar/spoon/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/seminar/spoon/ClassifyCuisineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/seminar/spoon/IngredientSubstitutesTest.java" afterDir="false" />
+    <list default="true" id="e5a6aa9d-f5ac-4cff-b81d-e048573d354d" name="Changes" comment="add Home Work Seminar 5">
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/bin/allure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/bin/allure.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/config/allure-cucumber.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/config/allure-junit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/config/allure.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/allure-commandline-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/allure-generator-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/allure-model-2.20.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/allure-plugin-api-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/allure1-model-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/annotations-15.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/commons-beanutils-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/commons-codec-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/commons-collections4-4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/commons-io-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/commons-lang3-3.12.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/commons-text-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/config/jetty-logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/config/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-ext-tables-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-util-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-util-ast-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-util-builder-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-util-collection-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-util-data-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-util-dependency-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-util-format-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-util-html-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-util-misc-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-util-options-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-util-sequence-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/flexmark-util-visitor-0.62.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/freemarker-2.3.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/httpclient-4.5.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/httpcore-4.4.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jackson-annotations-2.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jackson-core-2.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jackson-databind-2.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jackson-dataformat-xml-2.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jackson-dataformat-yaml-2.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jackson-module-jaxb-annotations-2.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jakarta.activation-api-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jakarta.xml.bind-api-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/javax.mail-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jaxb-utils-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jcommander-1.82.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jetty-http-9.4.49.v20220914.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jetty-io-9.4.49.v20220914.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jetty-server-9.4.49.v20220914.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/jetty-util-9.4.49.v20220914.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/logback-classic-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/logback-core-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/opencsv-4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/properties-2.0.RC5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/slf4j-api-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/snakeyaml-1.33.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/stax2-api-4.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/tika-core-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/lib/woodstox-core-6.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/behaviors-plugin/behaviors-plugin-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/behaviors-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/custom-logo-plugin/custom-logo-plugin-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/jira-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/jira-plugin/jira-plugin-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/jira-plugin/lib/allure-jira-commons-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/jira-plugin/lib/converter-jackson-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/jira-plugin/lib/jackson-annotations-2.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/jira-plugin/lib/jackson-core-2.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/jira-plugin/lib/jackson-databind-2.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/jira-plugin/lib/okhttp-3.12.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/jira-plugin/lib/okio-1.15.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/jira-plugin/lib/retrofit-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/junit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/junit-xml-plugin/junit-xml-plugin-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/packages-plugin/packages-plugin-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/packages-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/screen-diff-plugin/screen-diff-plugin-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/trx-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/trx-plugin/trx-plugin-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xctest-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xctest-plugin/xctest-plugin-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xray-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xray-plugin/lib/allure-jira-commons-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xray-plugin/lib/converter-jackson-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xray-plugin/lib/jackson-annotations-2.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xray-plugin/lib/jackson-core-2.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xray-plugin/lib/jackson-databind-2.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xray-plugin/lib/okhttp-3.12.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xray-plugin/lib/okio-1.15.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xray-plugin/lib/retrofit-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xray-plugin/xray-plugin-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xunit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xunit-xml-plugin/xunit-xml-plugin-2.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/run-junit-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/04a95f8a-8918-4d1c-911b-3eae84954fcc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/05f3ab1d-f0e5-4548-9555-9882594cb0b7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/06b1fca6-dca1-490c-8a59-b9f71ea32187-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/07083d56-c607-45cd-b99a-72809b9e71bc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/07a0c287-8d32-40f8-9da4-ce4656b13fde-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/09e3cbe9-e70f-42c2-8acc-91fd14ce8e59-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/11024678-29e0-4b29-ae5c-bf2183d09c29-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/11ab5393-59fa-4bf3-8608-2c952c99c14b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/125742ce-9bc6-49a6-8a69-6689f7c22104-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1317b7b7-e4de-41e9-8606-ce20044de8a6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/20ed28b8-5317-4099-8995-800475b02719-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2124f0b9-0099-4848-9e80-1d3e3ce10cc9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/27fccfd1-6fc0-42e0-8359-e85295a8a824-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2b87ada1-0a10-4b84-baae-e39a2a3f7dac-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2c4dec07-12ab-4fee-9cdb-0b28395de793-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2d994c9f-5a3e-4a77-9cbd-0d94ee5c25b0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2e442597-fdaf-4640-8b3c-c216b828fb39-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/34c540ef-9510-4b2d-a276-ab86000db9e2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/34d19b3a-f537-444d-8c5d-fc1921aa2814-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/37cccc0a-082e-4907-8eb9-b174b86f47ce-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3a666606-61b8-4286-9895-a8bcd2692883-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3bc6a93b-e647-454d-9479-4c71ae865ba5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/445398d2-93a9-46eb-9116-38f1a640fa71-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/46438dc0-114c-4c97-9df5-369b8aa0565a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4c0b7a4f-c53b-483f-b5bb-401dc5cffe69-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4df7da96-8c7c-4662-9c25-acab54ce2f56-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5d018af7-f7dd-49de-980b-08c398631991-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5e3c2ef1-c106-44ee-8594-0ad0df8be2d0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6134e77e-6d4f-4a42-bb7e-fd5beb4a6271-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/61f844a5-1e9f-47b5-88ee-cc2322f68d00-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/626b699d-fedb-4061-a6a1-e8411909a6e5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/62c51c85-1b37-454a-8dbf-def64030d459-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/665fb670-eae9-45f4-8c4a-5b7f37bc5cfd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/66fbdd52-0636-4546-86c8-bb97ea180d74-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/69ab78fd-928f-4f6c-8507-2ba0dd7c6319-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/70ea4fdc-a33c-4bc9-89a0-e3173951b186-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/72cacf10-e985-4a91-895b-9acb9abd7216-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/74d85022-294b-464a-8cb4-e81d12c31548-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7762b170-277f-4aae-bd99-420c774c8c97-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/77bd83f6-3299-4442-b88d-5ebf7e37dc4e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7973dbb0-d808-420a-b779-b37467abc28c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7afd877a-5157-4ea4-bf94-2336ee5500f2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7b40d3de-2869-4b2a-8c0b-785c6671c3c1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/835482ba-4a01-4449-9d18-065c864c8c26-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/876bc954-1449-4c2e-9a16-616884c5215a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/88cde0c3-860a-444a-a489-ace32dd5c241-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8e92a05b-b225-4617-9210-fc86f6aaaf64-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/90ba63ba-e402-44e0-b3a6-25ddb700e2f0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/92397948-2e36-4c99-b079-d67360828540-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/95e57b09-e096-4f3a-aff7-98a7ca58d7fb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/97d5e874-7c01-453a-a9a3-bccd67aff9dc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9930e8f9-3adc-4d7f-b827-4cb2d98f5a99-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9a6a4211-cafb-42e3-bef5-1631bb145efc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9c974ae9-d6bd-435b-834d-2b8804c70ad7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9e7611bf-d53e-4605-b4cb-5c3e0f55b8bc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a030fc09-8012-4d83-805c-4b6677bbe119-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a0a4ac78-18c3-477f-8d40-a1fb833a8288-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a1487973-b39a-403b-a10e-50c6c45051b6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a1fe0aea-d839-4a55-831e-eaadae445639-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a3da9966-c5a3-4961-afb4-5722444fbaa4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/aa8e1d3a-ad36-4dd0-8dc6-fb37babec0b0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/afb733d8-108f-4162-8616-430633f58b79-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b0e9e54c-f32f-4628-9bf4-f5eeb20450e9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b2d48f27-e366-4409-83af-a49081a2f4a7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b8761d87-bb6e-45b7-9fcb-efe2cca10261-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bea47fec-2076-44cb-ba59-6de57c402cf3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c4281e1f-f481-4cab-9d7b-9a73e0f297f8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d1ce9565-9453-46e9-baef-13733e3066d7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d380fc0b-255a-4354-a0f4-096fe95ec7f4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e203ffd4-c76b-4503-acbd-7629a1010ac0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e5e8c76f-c769-440b-bee1-30fdbf418e9a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ea2bbacc-ef7b-4f7b-8f53-781cd0241e7e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ed5bd990-783f-4495-b30c-084cf7bd4f27-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/executor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f59d4715-f1bd-42ae-98c8-e071de8f4545-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fbb0fb13-cc86-453a-9bf1-b5b8a0c007fb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fd50370f-5491-4b27-9b47-10e149eea3b6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fdae4fa2-dcf3-4890-a726-852a4a633dcd-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/demo/migration/V1_1_0__add_employee_info.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/demo/migration/V2_1_0__add_employee.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/home/migration/V1_1_0__add_product.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/home/migration/V2_1_0__add_customers.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/home/migration/V3_1_0__add_order.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/home/migration/V4_1_0__add_orders_products.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/home/migration/V5_1_0__add_courier.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/home/migration/V6_1_0__delivery.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seminar/migration/V1_1_0__add_client.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seminar/migration/V2_1_0__add_emploee.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seminar/migration/V3_1_0__add_debit.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seminar/migration/V4_1_0__add_current.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seminar/migration/V5_1_0__add_credit.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/byte-buddy-1.10.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/classmate-1.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dom4j-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/hibernate-core-5.4.11.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jandex-2.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/stax-ex-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/txw2-2.3.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/CourierInfoEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/CustomersEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/DeliveryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/MainHome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/OrdersEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/OrdersProductsEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/OrdersProductsEntityPK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HW4/ProductsEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/seminar/ClientEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/seminar/CreditEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/seminar/CurrentEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/seminar/DebitEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/seminar/EmployeeEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/seminar/MainHome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW4/AbstractTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW4/CustomerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW4/OrdersEntityTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/HW4/ProductsEntityTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +283,7 @@
     "Maven.AutoTestingHW [compile].executor": "Run",
     "Maven.AutoTestingHW [deploy].executor": "Run",
     "Maven.AutoTestingHW [install].executor": "Run",
+    "Maven.AutoTestingHW [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
     "Maven.AutoTestingHW [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
     "Maven.AutoTestingHW [org.flywaydb:flyway-maven-plugin:8.5.13:clean].executor": "Run",
     "Maven.AutoTestingHW [org.flywaydb:flyway-maven-plugin:8.5.13:migrate].executor": "Run",
@@ -206,7 +317,7 @@
       <recent name="org" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GetWeatherTenDayTest">
+  <component name="RunManager" selected="JUnit.GetLocationTest">
     <configuration name="GetLocationTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestingHW" />
       <extension name="coverage">
@@ -222,18 +333,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetLocationTest.get_shouldReturn200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetLocationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestingHW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.HW5.accu.*" />
+          <option name="PATTERN" value="org.seminar.accu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.HW5.accu" />
-      <option name="MAIN_CLASS_NAME" value="org.HW5.accu.GetLocationTest" />
-      <option name="METHOD_NAME" value="get_shouldReturn200" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.seminar.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.seminar.accu.GetLocationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -287,11 +397,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetLocationTest" />
         <item itemvalue="JUnit.GetWeatherTenDayTest" />
         <item itemvalue="JUnit.GetWeatherTenDayTest.get_shouldReturn400_WithInvalidLocation" />
         <item itemvalue="JUnit.GetWeatherTenDayTest.get_shouldReturn401" />
         <item itemvalue="JUnit.GetLocationTest (1)" />
-        <item itemvalue="JUnit.GetLocationTest.get_shouldReturn200" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710320256436</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add Home Work Seminar 5">
+      <option name="closed" value="true" />
+      <created>1710768093783</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710768093783</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -373,6 +491,7 @@
     <MESSAGE value="add Tests Home Work Seminar 2" />
     <MESSAGE value="add Tests Home Work Seminar 3" />
     <MESSAGE value="fixed Home Work Seminar 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed Home Work Seminar 3" />
+    <MESSAGE value="add Home Work Seminar 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Home Work Seminar 5" />
   </component>
 </project>
